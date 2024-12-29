@@ -8,14 +8,14 @@
 
     <ItemGroup>
         <PackageReference Include="CounterStrikeSharp.API" Version="*"/>
-		<Reference Include="ITagsApi">
-            <HintPath>..\ITagsApi.dll</HintPath>
-        </Reference>
-    </ItemGroup>
-
-    <ItemGroup>
         <PackageReference Include="Dapper" Version="2.1.24"/>
         <PackageReference Include="MySqlConnector" Version="2.3.1"/>
+    </ItemGroup>
+	
+    <ItemGroup>
+        <Reference Include="ITagsApi">
+            <HintPath>..\ITagsApi.dll</HintPath>
+        </Reference>
     </ItemGroup>
 
 </Project>
