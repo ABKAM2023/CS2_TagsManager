@@ -9,6 +9,7 @@ public class TagManagerCore : BasePlugin
 {
     public override string ModuleName => "[Clantag] Core";
     public override string ModuleVersion => "v1.0.0";
+    public override string ModuleAuthor => "ABKAM";
 
     private readonly ConcurrentDictionary<int, SortedSet<ClanTagEntry>> _playerClanTags = new();
     private readonly PluginCapability<ITagsApi> _pluginCapability = new("CLANTAG_API");
